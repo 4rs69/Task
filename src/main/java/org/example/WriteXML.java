@@ -52,7 +52,8 @@ public class WriteXML implements IWriteData
             _document.getDocumentElement().appendChild(taskElement);
 
             saveData();
-        } catch (Exception e)
+        }
+        catch (Exception e)
         {
             System.out.println("Ошибка при записи в XML: " + e);
         }
