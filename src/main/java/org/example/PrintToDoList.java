@@ -4,7 +4,7 @@ public class PrintToDoList
 {
     public void printAllTasks(ToDoList todDoList)
     {
-        if (todDoList.getTask() == null)
+        if (todDoList.getTask().isEmpty())
         {
             System.out.println("Нету никаких задач");
         }

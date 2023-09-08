@@ -26,7 +26,7 @@ public class WriteDataXML
 
     private int lastId(ToDoList _toDoList)
     {
-        int s =0;
+        int s = 0;
         var count = _toDoList.getTask().size();
 
         for (int i = 0; i < count; i++)
