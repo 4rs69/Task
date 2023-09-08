@@ -2,11 +2,12 @@ package org.example;
 
 import java.util.Scanner;
 
+
 public class EditTask implements IEditTask
 {
     private ToDoList _toDoList;
-    private WriterXML _writerXML;
-    public EditTask(ToDoList toDoList, WriterXML writerXML)
+    private WriteXML _writerXML;
+    public EditTask(ToDoList toDoList, WriteXML writerXML)
     {
         this._toDoList = toDoList;
         _writerXML = writerXML;

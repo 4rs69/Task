@@ -15,10 +15,10 @@ import java.util.Scanner;
 public class WriteDataXML
 {
     private Document _document;
-    private WriterXML _writerXML;
+    private WriteXML _writerXML;
 
     private Scanner scanner = new Scanner(System.in);
-    public WriteDataXML(Document document, WriterXML xmlWriter)
+    public WriteDataXML(Document document, WriteXML xmlWriter)
     {
         this._document = document;
         this._writerXML = xmlWriter;

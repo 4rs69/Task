@@ -11,11 +11,11 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.File;
 
-public class WriterXML implements IWriteData
+public class WriteXML implements IWriteData
 {
     private Document _document;
 
-    public WriterXML(Document document)
+    public WriteXML(Document document)
     {
         this._document = document;
     }

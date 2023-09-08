@@ -14,7 +14,7 @@ public class Manager
         var printToDoList = new PrintToDoList();
         var xmlParser = new ParserXML(document, toDoList);
         xmlParser.parseFile();
-        var writerXML = new WriterXML(document);
+        var writerXML = new WriteXML(document);
         var xmlWriteData = new WriteDataXML(document, writerXML);
         var editTask = new EditTask(toDoList,writerXML);
 
